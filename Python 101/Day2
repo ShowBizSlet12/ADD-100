@@ -29,5 +29,4 @@ verb = input("Verb:")
 
 print(f"{number} {number_second} buckle my {clothing}")
 print(f"{two_new_numbers_in_a_row} {verb} the {object}")
-print("Number number I don't know how to.")
-print("End this")
+print("Number number I don't know how to \n End this.")
