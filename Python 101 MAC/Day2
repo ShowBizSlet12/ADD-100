@@ -1,0 +1,32 @@
+"""
+-----------------------------------------------------------------------
+ASSIGNMENT REQUIREMENTS
+-----------------------------------------------------------------------
+[ ] 1. Header Docstring included (Assignment Name, Date, File Name).
+[ ] 2. Program asks for at least 5 different inputs (variables).
+[ ] 3. Output uses F-Strings to combine text and variables.
+[ ] 4. Output uses at least one escape sequence (\n or \t).
+[ ] 5. Code contains comments explaining the steps.
+[ ] 6. Program runs without errors.
+-----------------------------------------------------------------------
+"""
+# One two 
+
+print ("X and Y")
+print ("     By the user ")
+
+
+# Varialbles 
+
+number = input("Favorite number:")
+number_second = input("A higher number:")
+clothing = input("A article of clothing: ")
+two_new_numbers_in_a_row = input("Two more numbers both in this line: ")
+object = input("Object: ")
+verb = input("Verb:")
+
+# output 
+
+print(f"{number} {number_second} buckle my {clothing}")
+print(f"{two_new_numbers_in_a_row} {verb} the {object}")
+print("Number number I don't know how to \n End this.")
