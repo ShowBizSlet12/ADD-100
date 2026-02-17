@@ -29,7 +29,7 @@ while len(seats) > 0:
 
         # Quit option
         if choice == 0:
-            print(f"Total sales today: ${total_sales}")
+            print(f"Your total is: ${total_sales}")
 
             break
 
@@ -48,4 +48,4 @@ while len(seats) > 0:
 # If seats sell out
 if len(seats) == 0:
     print("The show is full!")
-    print(f"Total sales today: ${total_sales}")
+    print(f"Your total is: ${total_sales}")
