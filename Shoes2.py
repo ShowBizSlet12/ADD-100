@@ -63,12 +63,17 @@ def preview_sale(salesperson, sale_data):
     print("-----------------------------------")
 
     confirm = input("Confirm sale? (y/n): ")
+    # I choose this return insted of the standard if else becouse it is shorter.
+    # it works by if the user enters y it returns true if not it returns false. 
     return confirm.lower() == "y"
 
 
 def record_sale(salesperson, sale_data):
     """Stores the sale in the sales history file."""
-
+# The "with open" statement is used to safely open a file.
+# It automatically closes the file after writing, which sould prevents errors.
+# The "a" mode means append, so new sales are added instead of deleting previous data
+# This is key so that i can store sales data form a while back to learn trends from. 
     with open(SALES_HISTORY_FILE, "a") as file:
         file.write(
             f"{salesperson},"
