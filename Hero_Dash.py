@@ -17,7 +17,7 @@ TAX_RATE = 0.07
 
 
 def process_expenses(item_name, price, quantity):
-    # adds up total cost with tax 
+    # ADDS UP TOTAL COST PLUS TAX 
     
     subtotal = price * quantity
     tax = subtotal * TAX_RATE
